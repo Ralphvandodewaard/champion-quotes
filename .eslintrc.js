@@ -20,11 +20,11 @@ module.exports = {
     'vue/attribute-hyphenation': ['error', 'always', {
       ignore: []
     }],
-    "semi": "off",
-    "@typescript-eslint/semi": ['error', 'always'],
+    semi: 'off',
+    '@typescript-eslint/semi': ['error', 'always'],
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/no-unused-vars': ['error'],
-    "space-before-function-paren": ["error", "never"],
-    "spaced-comment": "off"
+    'space-before-function-paren': ['error', 'never'],
+    'spaced-comment': 'off'
   }
-}
+};
