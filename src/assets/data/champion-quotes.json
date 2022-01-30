@@ -1,0 +1,634 @@
+[
+  {
+    "name": "Aatrox",
+    "pick": "Now, hear the silence of annihilation!"
+  },
+  {
+    "name": "Ahri",
+    "pick": "Don't you trust me?"
+  },
+  {
+    "name": "Akali",
+    "pick": "Fear the assassin with no master."
+  },
+  {
+    "name": "Akshan",
+    "pick": "Fixing the world, one scoundrel at a time!"
+  },
+  {
+    "name": "Alistar",
+    "pick": "Nothing can hold me back!"
+  },
+  {
+    "name": "Amumu",
+    "pick": "I thought you'd never pick me."
+  },
+  {
+    "name": "Anivia",
+    "pick": "On my wings."
+  },
+  {
+    "name": "Annie",
+    "pick": "You wanna play too? It'll be fun!"
+  },
+  {
+    "name": "Aphelios",
+    "pick": "So many weapons. The deadliest is your faith."
+  },
+  {
+    "name": "Ashe",
+    "pick": "All the world on one arrow."
+  },
+  {
+    "name": "Aurelion Sol",
+    "pick": "Naturally."
+  },
+  {
+    "name": "Azir",
+    "pick": "Shurima! Your emperor has returned!"
+  },
+  {
+    "name": "Bard",
+    "pick": "[...] chimes."
+  },
+  {
+    "name": "Blitzcrank",
+    "pick": "Fired up and ready to serve."
+  },
+  {
+    "name": "Brand",
+    "pick": "Ready to set the world on fire? Heheheh..."
+  },
+  {
+    "name": "Braum",
+    "pick": "The heart is the strongest muscle."
+  },
+  {
+    "name": "Caitlyn",
+    "pick": "I'm on the case."
+  },
+  {
+    "name": "Camille",
+    "pick": "Precision is the difference between a butcher and a surgeon."
+  },
+  {
+    "name": "Cassiopeia",
+    "pick": "There is no antidote for me."
+  },
+  {
+    "name": "Cho'Gath",
+    "pick": "You'd wish the world you know to end! Yeeeesssss..."
+  },
+  {
+    "name": "Corki",
+    "pick": "I'm up to snuff, and gots me an ace machine!"
+  },
+  {
+    "name": "Darius",
+    "pick": "They will regret opposing me."
+  },
+  {
+    "name": "Diana",
+    "pick": "A new moon is rising."
+  },
+  {
+    "name": "Dr. Mundo",
+    "pick": "The doctor is... uh... in!"
+  },
+  {
+    "name": "Draven",
+    "pick": "Welcome to the League of [...]."
+  },
+  {
+    "name": "Ekko",
+    "pick": "It's not how much time you have, it's how you use it."
+  },
+  {
+    "name": "Elise",
+    "pick": "Only the spider is safe in her web."
+  },
+  {
+    "name": "Evelynn",
+    "pick": "You know you want me."
+  },
+  {
+    "name": "Ezreal",
+    "pick": "Quest accepted! ...Wait, where are we going?"
+  },
+  {
+    "name": "Fiddlesticks",
+    "pick": "Fear..."
+  },
+  {
+    "name": "Fiora",
+    "pick": "I long for a worthy opponent."
+  },
+  {
+    "name": "Fizz",
+    "pick": "Let me at 'em!"
+  },
+  {
+    "name": "Galio",
+    "pick": "Time to make an impact!"
+  },
+  {
+    "name": "Gangplank",
+    "pick": "Neither the flames nor the depths could claim me."
+  },
+  {
+    "name": "Garen",
+    "pick": "My heart and sword always for Demacia."
+  },
+  {
+    "name": "Gnar",
+    "pick":  "[...] gada!"
+  },
+  {
+    "name": "Gragas",
+    "pick": "If you're buying, I'm in!"
+  },
+  {
+    "name": "Graves",
+    "pick": "Dead man walkin'."
+  },
+  {
+    "name": "Gwen",
+    "pick": "Head high, chin up, scissors ready!"
+  },
+  {
+    "name": "Hecarim",
+    "pick": "Behold, the might of the Shadow Isles."
+  },
+  {
+    "name": "Heimerdinger",
+    "pick": "Indeed, a wise choice."
+  },
+  {
+    "name": "Illaoi",
+    "pick": "I'm not big on sermons - broken bones teach better lessons."
+  },
+  {
+    "name": "Irelia",
+    "pick": "Fight for the First Lands!"
+  },
+  {
+    "name": "Ivern",
+    "pick": "My favorite color is spring."
+  },
+  {
+    "name": "Janna",
+    "pick": "The tempest is at your command."
+  },
+  {
+    "name": "Jarvan IV",
+    "pick": "By my will, this shall be finished."
+  },
+  {
+    "name": "Jax",
+    "pick": "Let's do this!"
+  },
+  {
+    "name": "Jayce",
+    "pick": "I fight for a brighter tomorrow."
+  },
+  {
+    "name": "Jhin",
+    "pick": "In carnage, I bloom, like a flower in the dawn."
+  },
+  {
+    "name": "Jinx",
+    "pick": "Rules are made to be broken... like buildings! Or people!"
+  },
+  {
+    "name": "Kai'Sa",
+    "pick": "Are you the hunter... or the prey?"
+  },
+  {
+    "name": "Kalista",
+    "pick": "Death to all betrayers."
+  },
+  {
+    "name": "Karma",
+    "pick": "Always trust your spirit."
+  },
+  {
+    "name": "Karthus",
+    "pick": "Agony, ecstasy, peace. Every passing has a beauty all its own."
+  },
+  {
+    "name": "Kassadin",
+    "pick": "The balance of power must be preserved."
+  },
+  {
+    "name": "Katarina",
+    "pick": "Violence solves everything."
+  },
+  {
+    "name": "Kayle",
+    "pick": "They shall tremble at my perfection."
+  },
+  {
+    "name": "Kayn",
+    "pick": "Will you prove worthy? Probably not."
+  },
+  {
+    "name": "Kennen",
+    "pick": "The eyes never lie."
+  },
+  {
+    "name": "Kha'Zix",
+    "pick": "Change is good."
+  },
+  {
+    "name": "Kindred",
+    "pick": "Never one... without the other."
+  },
+  {
+    "name": "Kled",
+    "pick": "I find courage unpredictable, it's total insanity you can rely on!"
+  },
+  {
+    "name": "Kog'Maw",
+    "pick": "Time to feast!"
+  },
+  {
+    "name": "LeBlanc",
+    "pick": "The Black Rose shall bloom once more."
+  },
+  {
+    "name": "Lee Sin",
+    "pick": "Your will, my hands."
+  },
+  {
+    "name": "Leona",
+    "pick": "The dawn has arrived."
+  },
+  {
+    "name": "Lillia",
+    "pick": "Me? A dream come true."
+  },
+  {
+    "name": "Lissandra",
+    "pick": "I will bury the world in ice."
+  },
+  {
+    "name": "Lucian",
+    "pick": "Everybody dies. Some just need a little help."
+  },
+  {
+    "name": "Lulu",
+    "pick": "Pleased to meet you!"
+  },
+  {
+    "name": "Lux",
+    "pick": "Let's light it up!"
+  },
+  {
+    "name": "Malphite",
+    "pick": "Rock solid."
+  },
+  {
+    "name": "Malzahar",
+    "pick": "Oblivion awaits!"
+  },
+  {
+    "name": "Maokai",
+    "pick": "The Isles will bloom again!"
+  },
+  {
+    "name": "Master Yi",
+    "pick": "My blade is yours."
+  },
+  {
+    "name": "Miss Fortune",
+    "pick": "Fortune doesn't favor fools."
+  },
+  {
+    "name": "Mordekaiser",
+    "pick": "Destiny. Domination. Deceit."
+  },
+  {
+    "name": "Morgana",
+    "pick": "I am bound, but I will not break."
+  },
+  {
+    "name": "Nami",
+    "pick": "I decide what the tide will bring."
+  },
+  {
+    "name": "Nasus",
+    "pick": "The cycle of life and death continues. We will live, they will die."
+  },
+  {
+    "name": "Nautilus",
+    "pick": "Beware the depths."
+  },
+  {
+    "name": "Neeko",
+    "pick": "[...] is best decision!"
+  },
+  {
+    "name": "Nidalee",
+    "pick": "They will fear the wild."
+  },
+  {
+    "name": "Nocturne",
+    "pick": "Embrace the darkness."
+  },
+  {
+    "name": "Nunu & Willump",
+    "pick": "Every adventure is better with a friend!"
+  },
+  {
+    "name": "Olaf",
+    "pick": "Leave nothing behind!"
+  },
+  {
+    "name": "Orianna",
+    "pick": "We will kill your enemies. That will be fun."
+  },
+  {
+    "name": "Ornn",
+    "pick": "Fine, we go."
+  },
+  {
+    "name": "Pantheon",
+    "pick": "In battle, we are reborn."
+  },
+  {
+    "name": "Poppy",
+    "pick": "I'm no hero - just a Yordle with a hammer."
+  },
+  {
+    "name": "Pyke",
+    "pick": "Sink 'em all."
+  },
+  {
+    "name": "Qiyana",
+    "pick": "You may now appreciate me."
+  },
+  {
+    "name": "Quinn",
+    "pick": "Justice takes wing."
+  },
+  {
+    "name": "Rakan",
+    "pick": "Let's dance."
+  },
+  {
+    "name": "Rammus",
+    "pick": "Ok."
+  },
+  {
+    "name": "Rek'Sai",
+    "pick": "[...] rasps."
+  },
+  {
+    "name": "Rell",
+    "pick": "Nothing gets in, no one gets out."
+  },
+  {
+    "name": "Renekton",
+    "pick": "As I live, all will die!"
+  },
+  {
+    "name": "Rengar",
+    "pick": "Tonight, we hunt!"
+  },
+  {
+    "name": "Riven",
+    "pick": "What is broken can be reforged."
+  },
+  {
+    "name": "Rumble",
+    "pick": "Let's get in the fight!"
+  },
+  {
+    "name": "Ryze",
+    "pick": "A step ahead of cataclysm."
+  },
+  {
+    "name": "Samira",
+    "pick": "You want style? You've found her."
+  },
+  {
+    "name": "Sejuani",
+    "pick": "Trust nothing but your strength."
+  },
+  {
+    "name": "Senna",
+    "pick": "No one fights alone in the Mist."
+  },
+  {
+    "name": "Seraphine",
+    "pick": "Let's change the world!"
+  },
+  {
+    "name": "Sett",
+    "pick": "I'm undisputed."
+  },
+  {
+    "name": "Shaco",
+    "pick": "How about a magic trick?"
+  },
+  {
+    "name": "Shen",
+    "pick": "A demonstration of superior judgement."
+  },
+  {
+    "name": "Shyvana",
+    "pick": "They are nothing before me."
+  },
+  {
+    "name": "Singed",
+    "pick": "How about a drink?"
+  },
+  {
+    "name": "Sion",
+    "pick": "Rest is for the living."
+  },
+  {
+    "name": "Sivir",
+    "pick": "I always take my toll - blood, or gold."
+  },
+  {
+    "name": "Skarner",
+    "pick": "My stinger brings ugly death."
+  },
+  {
+    "name": "Sona",
+    "pick": "What masterpiece shall we play today?"
+  },
+  {
+    "name": "Soraka",
+    "pick": "Let me guide you."
+  },
+  {
+    "name": "Swain",
+    "pick": "Fear the power you do not see."
+  },
+  {
+    "name": "Sylas",
+    "pick": "No more cages!"
+  },
+  {
+    "name": "Syndra",
+    "pick": "So much untapped power!"
+  },
+  {
+    "name": "Tahm Kench",
+    "pick": "Call me king, call me demon. Water forgets the names of the drowned."
+  },
+  {
+    "name": "Taliyah",
+    "pick": "Know the loom. Be the stone."
+  },
+  {
+    "name": "Talon",
+    "pick": "Live and die by the blade."
+  },
+  {
+    "name": "Taric",
+    "pick": "That glimmer of hope you see, that's me."
+  },
+  {
+    "name": "Teemo",
+    "pick": "Captain [...] on duty."
+  },
+  {
+    "name": "Thresh",
+    "pick": "What delightful agony we shall inflict."
+  },
+  {
+    "name": "Tristana",
+    "pick": "Once a Bandle gunner, always a Bandle gunner!"
+  },
+  {
+    "name": "Trundle",
+    "pick": "Time to troll!"
+  },
+  {
+    "name": "Tryndamere",
+    "pick": "This'll be a slaughter."
+  },
+  {
+    "name": "Twisted Fate",
+    "pick": "Lady luck is smilin'."
+  },
+  {
+    "name": "Twitch",
+    "pick": "What doesn't kill you just isn't finished yet."
+  },
+  {
+    "name": "Udyr",
+    "pick": "Our rage is beyond your control!"
+  },
+  {
+    "name": "Urgot",
+    "pick": "You cannot know strength... until you are broken."
+  },
+  {
+    "name": "Varus",
+    "pick": "The guilty will know agony."
+  },
+  {
+    "name": "Vayne",
+    "pick": "Let us hunt those who have fallen to darkness."
+  },
+  {
+    "name": "Veigar",
+    "pick": "Know that if the tables were turned, I would show you no mercy!"
+  },
+  {
+    "name": "Vel'Koz",
+    "pick": "Knowledge through... disintegration."
+  },
+  {
+    "name": "Vex",
+    "pick": "'Kay. See if I care."
+  },
+  {
+    "name": "Vi",
+    "pick": "Punch first. Ask questions while punching."
+  },
+  {
+    "name": "Viego",
+    "pick": "Love ruins all."
+  },
+  {
+    "name": "Viktor",
+    "pick": "Join the glorious evolution."
+  },
+  {
+    "name": "Vladimir",
+    "pick": "The rivers will run red."
+  },
+  {
+    "name": "Volibear",
+    "pick": "Feel the power of the wild."
+  },
+  {
+    "name": "Warwick",
+    "pick": "Blood runs... they all run."
+  },
+  {
+    "name": "Wukong",
+    "pick": "I will be the best."
+  },
+  {
+    "name": "Xayah",
+    "pick": "I can never resist an invitation to dance."
+  },
+  {
+    "name": "Xerath",
+    "pick": "I will be free."
+  },
+  {
+    "name": "Xin Zhao",
+    "pick": "To the arena!"
+  },
+  {
+    "name": "Yasuo",
+    "pick": "Death is like the wind - always by my side."
+  },
+  {
+    "name": "Yone",
+    "pick": "One to cut, one to seal."
+  },
+  {
+    "name": "Yorick",
+    "pick": "Fear not... I will make use of your corpse."
+  },
+  {
+    "name": "Yuumi",
+    "pick": "You and me, we got this!"
+  },
+  {
+    "name": "Zac",
+    "pick": "I was made for this... literally."
+  },
+  {
+    "name": "Zed",
+    "pick": "The unseen blade is the deadliest."
+  },
+  {
+    "name": "Zeri",
+    "pick": "A spark is all I need!"
+  },
+  {
+    "name": "Ziggs",
+    "pick": "This'll be a blast!"
+  },
+  {
+    "name": "Zilean",
+    "pick": "I knew you would do that... "
+  },
+  {
+    "name": "Zoe",
+    "pick": "Yes! This'll be fun! Right?"
+  },
+  {
+    "name": "Zyra",
+    "pick": "Feel the thorns' embrace."
+  }
+]
