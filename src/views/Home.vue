@@ -3,15 +3,34 @@
     v-if="!loading"
     class="flex flex-col flex-grow gap-4 sm:gap-8 p-4 sm:p-8"
   >
-    <div class="flex flex-col text-xl font-semibold text-white">
-      <p class="text-sm">
-        High score:
-        {{ highScore }}
-      </p>
-      <p>
-        Score:
-        {{ currentScore }}
-      </p>
+    <div class="flex justify-between gap-2">
+      <div class="flex flex-col text-xl font-semibold text-white">
+        <p class="text-sm">
+          High score:
+          {{ highScore }}
+        </p>
+        <p>
+          Score:
+          {{ currentScore }}
+        </p>
+      </div>
+      <button
+        @click="toggleVolume"
+        class="h-7 w-7 transform hover:scale-102 duration-200"
+      >
+        <img
+          v-if="!isMuted"
+          class="h-full w-full"
+          src="../assets/icons/volume.svg"
+          alt="Volume"
+        >
+        <img
+          v-if="isMuted"
+          class="h-full w-full"
+          src="../assets/icons/muted.svg"
+          alt="Muted"
+        >
+      </button>
     </div>
     <div class="flex flex-col items-center gap-12 sm:gap-20 px-0 lg:px-32 pb-0 lg:pb-12 overflow-y-auto">
       <div class="flex flex-col items-center gap-8 w-3/5 lg:w-4/5 max-w-xl">
@@ -40,9 +59,14 @@
               "{{ activeChampion.quotes.pick }}"
             </p>
             <div class="hidden">
-              <audio preload="auto">
-                <source type="audio/ogg" :src="audioSrc">
-                Your browser does not support the audio tag
+              <audio
+                ref="audio"
+                controls
+              >
+                <source
+                  type="audio/ogg"
+                  :src="audioSrc"
+                >
               </audio>
             </div>
           </div>
@@ -56,11 +80,13 @@
               v-if="isCorrect"
               class="h-full w-full"
               src="../assets/icons/arrow-right.svg"
+              alt="Next"
             >
             <img
               v-if="!isCorrect"
               class="h-full w-full"
               src="../assets/icons/reset.svg"
+              alt="Restart"
             >
           </button>
         </div>
@@ -115,6 +141,8 @@ export default class Home extends Vue {
   highScore = 0;
 
   currentScore = 0;
+
+  isMuted = false;
 
   get backgroundImageStyle(): any {
     const gradient = 'linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5))';
@@ -211,10 +239,14 @@ export default class Home extends Vue {
 
   setActiveChampion(): void {
     this.activeChampion = this.champions[Math.floor(Math.random() * this.champions.length)];
+    if (this.$refs.audio) {
+      (this.$refs.audio as any).load();
+    }
   }
 
   selectChampion(champion: Champion): void {
     this.selectedChampion = champion;
+    (this.$refs.audio as any).play();
     if (this.isCorrect) {
       this.addScore();
     }
@@ -239,6 +271,11 @@ export default class Home extends Vue {
     this.selectedChampion = null;
     this.searchInputValue = '';
     this.setActiveChampion();
+  }
+
+  toggleVolume(): void {
+    this.isMuted = !this.isMuted;
+    (this.$refs.audio as any).volume = this.isMuted ? 0 : 1;
   }
 }
 </script>
